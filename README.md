@@ -134,5 +134,6 @@ SMARTBIN/
 ## 📜 Acknowledgments
 
   * **Dataset:** Amazon Bin Image Dataset (AWS Public Datasets).
-  * **Models:** Ultralytics YOLOv8 and OpenAI CLIP.
+  * **Models:** Ultralytics YOLOv8 and OpenAI CLIP. 
+
 
