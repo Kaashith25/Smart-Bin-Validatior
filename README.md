@@ -1,7 +1,7 @@
 # 📦 SmartBin: Intelligent Order Validation System
    
 
-**SmartBin** is a Zero-Shot Computer Vision system designed to automate inventory verification in Amazon Fulfillment Centers. [cite\_start]It validates whether the items in a customer order are physically present in a bin, accounting for quantity and occlusion[cite: 5, 39].
+**SmartBin** is a Zero-Shot Computer Vision system designed to automate inventory verification in Amazon Fulfillment Centers. It validates whether the items in a customer order are physically present in a bin, accounting for quantity and occlusion.
 
 -----
 
@@ -14,8 +14,8 @@ The application is deployed on Streamlit Cloud:
 
 ## 👥 Team Members
 
-| Name | Roll Number | Role |
-| :--- | :--- | :--- |
+| Name | Roll Number |
+| :--- | :--- | 
 | **Chirunomula Vamshi Krishna Babu** | SE22UARI038 |
 | **Narukulla Mokshitha** | SE22UARI111 |
 | **Gopu Venkata Kaashith** | SE22UARI200 |
@@ -25,14 +25,14 @@ The application is deployed on Streamlit Cloud:
 
 ## 🎯 Objectives & Problem Statement
 
-[cite\_start]The e-commerce industry faces a critical challenge in inventory management: **accurately identifying items in heavily occluded bins** to verify order fulfillment[cite: 6, 23].
+The e-commerce industry faces a critical challenge in inventory management: **accurately identifying items in heavily occluded bins** to verify order fulfillment.
 
 **Core Objectives Achieved:**
 
-1.  [cite\_start]**Order Validation:** Verifies if specific ordered items (ASINs) are present in the bin image[cite: 39].
-2.  [cite\_start]**Quantity Verification:** Validates if the count of visible items matches the order manifest[cite: 8].
-3.  [cite\_start]**Zero-Shot Scalability:** Identifies novel items without re-training, solving the "New SKU" problem[cite: 116].
-4.  [cite\_start]**Interactive UI:** A user-friendly web interface for warehouse operators to perform manual checks[cite: 51].
+1.  **Order Validation:** Verifies if specific ordered items (ASINs) are present in the bin image.
+2.  **Quantity Verification:** Validates if the count of visible items matches the order manifest.
+3.  **Zero-Shot Scalability:** Identifies novel items without re-training, solving the "New SKU" problem.
+4.  **Interactive UI:** A user-friendly web interface for warehouse operators to perform manual checks.
 
 -----
 
@@ -73,7 +73,7 @@ We evaluated the system on a random subset of 50 images from the **Amazon Bin Im
 | **Item Recall Rate** | **\~43%** | Percentage of ordered items successfully verified autonomously. |
 | **Precision Strategy** | **High** | We prioritized *Precision* over Recall to minimize false positives. A "Match" is highly trustworthy. |
 
-**Observation:** The primary limitation is **Physical Occlusion**. In bins with 5+ items, deeper items are often completely hidden from the camera view. [cite\_start]Our system correctly identifies the visible top layer and flags the rest as "Missing/Occluded"[cite: 23].
+**Observation:** The primary limitation is **Physical Occlusion**. In bins with 5+ items, deeper items are often completely hidden from the camera view. Our system correctly identifies the visible top layer and flags the rest as "Missing/Occluded".
 
 -----
 
@@ -133,5 +133,6 @@ SMARTBIN/
 
 ## 📜 Acknowledgments
 
-  * [cite\_start]**Dataset:** Amazon Bin Image Dataset (AWS Public Datasets)[cite: 12].
+  * **Dataset:** Amazon Bin Image Dataset (AWS Public Datasets).
   * **Models:** Ultralytics YOLOv8 and OpenAI CLIP.
+
