@@ -1,0 +1,9 @@
+streamlit
+ultralytics
+torch
+torchvision
+Pillow
+pandas
+numpy
+tqdm
+git+https://github.com/openai/CLIP.git

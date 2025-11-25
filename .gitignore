@@ -1,0 +1,28 @@
+# --- Python & Environment ---
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+# --- Data & Images ---
+subset/
+metadata/
+data/
+
+# --- Temporary Runtime Images ---
+*.jpg
+*.jpeg
+*.png
+# Exception: If you want to keep specific screenshots for README, you can force add them later, 
+# but this blocks the temp garbage.
+
+# --- Large Model Weights ---
+# GitHub blocks files > 100MB. YOLO models are usually large.
+*.pt
+*.pth
+yolov8x-seg.pt
+
+# --- IDE Settings (Optional but recommended) ---
+.vscode/
+.idea/
